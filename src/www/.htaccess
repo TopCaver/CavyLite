@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteRule !\.(js|ico|gif|jpg|png|bmp|css|php|php?.*|htm|html|eml|txt|htc)$ cavy_filter.php
+</IfModule>
